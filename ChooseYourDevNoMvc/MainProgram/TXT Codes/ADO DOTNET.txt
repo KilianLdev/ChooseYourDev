@@ -1,0 +1,24 @@
+/* Request with ADO.net */
+  /*
+   var connectionStringBuilder = new SqliteConnectionStringBuilder {
+       DataSource = "../../ChooseYourDev.db"
+   };
+
+   using (var connection = new SqliteConnection(connectionStringBuilder.ConnectionString)) {
+
+       connection.Open();
+
+       var selectCommand = connection.CreateCommand();
+
+       selectCommand.CommandText = "SELECT d.name, rating, description FROM dev AS d";
+
+       using (var reader = selectCommand.ExecuteReader()) {
+           while (reader.Read()) {
+               var message = $"{reader["name"]} : {reader["rating"]} : ";
+               System.Console.WriteLine(message);
+           }
+       }
+
+       connection.Close();
+   }
+   */

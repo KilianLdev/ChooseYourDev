@@ -1,0 +1,38 @@
+/* C# Basics */
+        /*
+        Languages cSharp = new cSharp();
+
+         Codeur codeur1 = new Codeur();
+
+         codeur1.Name = "Guillouët Thomas";
+         codeur1.Age = 18;
+         codeur1.PokemonName = "Pandespiègle";
+         codeur1.Rating = 5f;
+         codeur1.Description = "Simple mais trop fort (le dieu ?)";
+         codeur1.Languages = cSharp.LanguageName;
+         codeur1.Price = 3731f;
+
+         codeur1.Comments.Add("baka");
+         codeur1.Comments.Add("lalala");
+
+         Console.WriteLine($"Name : {codeur1.Name}");
+         Console.WriteLine($"Age  : {codeur1.Age}");
+         Console.WriteLine($"Pokemon name : {codeur1.PokemonName}");
+         Console.WriteLine($"Rate : {codeur1.Rating}");
+         Console.WriteLine($"Languages : {codeur1.Languages}");
+         Console.WriteLine($"{cSharp.Editor}");
+
+         foreach(string ide in cSharp.IdeNames) {
+             Console.WriteLine($"{ide}");
+         }
+
+         Console.WriteLine($"Name : {codeur1.Description}");
+         Console.WriteLine($"Name : {codeur1.Price + " €"}");
+         Console.WriteLine("------------------------------------------");
+         Console.WriteLine("Comments : ");
+
+         foreach (string comment in codeur1.Comments)
+         {
+             Console.WriteLine($"{codeur1.Name} : {comment}");
+         }
+         */
